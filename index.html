@@ -3,10 +3,12 @@
 
 <body style="margin : 0px; overflow: hidden;">
   
-  <a-scene embedded arjs="sourceType: webcam; detectionMode: mono_and_matrix; matrixCodeType: 3x3;">
+  <a-scene renderer="logarithmicDepthBuffer: true; colorManagement: true; sortObjects: true;" embedded arjs="sourceType: webcam; detectionMode: mono_and_matrix; matrixCodeType: 3x3;">
     
     <a-assets>
-      <a-asset-item id="cone" src="https://raw.githubusercontent.com/nucleosistemasit/ar_seguranca/main/3d/scene.gltf"></a-asset-item>
+      <a-asset-item id="cone" src="https://raw.githubusercontent.com/nucleosistemasit/ar_seguranca/main/3d/traffic_cone_game_ready/scene.gltf"></a-asset-item>
+      <a-asset-item id="safety_helmet" src="https://raw.githubusercontent.com/nucleosistemasit/ar_seguranca/main/3d/safety_helmet/scene.gltf"></a-asset-item>
+      <a-asset-item id="googles" src="https://raw.githubusercontent.com/nucleosistemasit/ar_seguranca/main/3d/googles.gltf"></a-asset-item>
     </a-assets>
 
     <!-- handle barcode marker -->    
@@ -16,11 +18,13 @@
     </a-marker>
     
     <a-marker type="barcode" value="2">
-      <a-box position="0 0.5 0" material="color: green;"></a-box>
+<!--       <a-box position="0 0.5 0" material="color: green;"></a-box> -->
+      <a-entity gltf-model="#safety_helmet" position="0 0 0.5" rotation="-90 0 0" scale="0.5 0.5 0.5"></a-entity>
     </a-marker>
     
     <a-marker type="barcode" value="3">
-      <a-box position="0 0.5 0" material="color: yellow;"></a-box>
+      <a-entity gltf-model="#googles" position="0 0 0.25" rotation="-90 0 0" scale="0.08 0.08 0.08"></a-entity>
+<!--       <a-box position="0 0.5 0" material="color: yellow;"></a-box> -->
     </a-marker>
     
     <a-marker type="barcode" value="4">
