@@ -15,110 +15,22 @@
     "nodes" : [
         {
             "mesh" : 0,
-            "name" : "Leather_Glove_Class003.001",
+            "name" : "Leather_Glove_Class003",
             "rotation" : [
-                0,
-                -1,
-                0,
-                7.549790126404332e-08
+                0.3126440644264221,
+                -0.43419361114501953,
+                -0.17967410385608673,
+                0.8254979252815247
             ],
             "scale" : [
-                0.2540000379085541,
-                0.2540000379085541,
-                0.2540000379085541
+                0.04934483766555786,
+                0.04934483394026756,
+                0.04934483394026756
             ],
             "translation" : [
-                4.198930263519287,
-                0,
-                0
-            ]
-        }
-    ],
-    "animations" : [
-        {
-            "channels" : [
-                {
-                    "sampler" : 0,
-                    "target" : {
-                        "node" : 0,
-                        "path" : "translation"
-                    }
-                },
-                {
-                    "sampler" : 1,
-                    "target" : {
-                        "node" : 0,
-                        "path" : "rotation"
-                    }
-                },
-                {
-                    "sampler" : 2,
-                    "target" : {
-                        "node" : 0,
-                        "path" : "scale"
-                    }
-                }
-            ],
-            "name" : "Leather_Glove_Class003|Take 001|BaseLayer",
-            "samplers" : [
-                {
-                    "input" : 4,
-                    "interpolation" : "STEP",
-                    "output" : 5
-                },
-                {
-                    "input" : 4,
-                    "interpolation" : "STEP",
-                    "output" : 6
-                },
-                {
-                    "input" : 4,
-                    "interpolation" : "STEP",
-                    "output" : 7
-                }
-            ]
-        },
-        {
-            "channels" : [
-                {
-                    "sampler" : 0,
-                    "target" : {
-                        "node" : 0,
-                        "path" : "translation"
-                    }
-                },
-                {
-                    "sampler" : 1,
-                    "target" : {
-                        "node" : 0,
-                        "path" : "rotation"
-                    }
-                },
-                {
-                    "sampler" : 2,
-                    "target" : {
-                        "node" : 0,
-                        "path" : "scale"
-                    }
-                }
-            ],
-            "name" : "Leather_Glove_Class003|Take 001|BaseLayer_Leather_Glove_Cla.001",
-            "samplers" : [
-                {
-                    "input" : 4,
-                    "interpolation" : "STEP",
-                    "output" : 8
-                },
-                {
-                    "input" : 4,
-                    "interpolation" : "STEP",
-                    "output" : 9
-                },
-                {
-                    "input" : 4,
-                    "interpolation" : "STEP",
-                    "output" : 10
-                }
+                0.614263117313385,
+                1.1525113582611084,
+                0.13528776168823242
             ]
         }
     ],
@@ -139,7 +51,7 @@
     ],
     "meshes" : [
         {
-            "name" : "Mesh.014",
+            "name" : "Mesh",
             "primitives" : [
                 {
                     "attributes" : {
@@ -157,29 +69,29 @@
         {
             "bufferView" : 0,
             "componentType" : 5126,
-            "count" : 8602,
+            "count" : 7892,
             "max" : [
-                10.987464904785156,
-                14.861042976379395,
-                23.94739532470703
+                6.81117582321167,
+                11.577816009521484,
+                26.526315689086914
             ],
             "min" : [
-                -10.859508514404297,
-                -18.759197235107422,
-                -15.61366081237793
+                -19.566699981689453,
+                -20.080015182495117,
+                -5.287494659423828
             ],
             "type" : "VEC3"
         },
         {
             "bufferView" : 1,
             "componentType" : 5126,
-            "count" : 8602,
+            "count" : 7892,
             "type" : "VEC3"
         },
         {
             "bufferView" : 2,
             "componentType" : 5126,
-            "count" : 8602,
+            "count" : 7892,
             "type" : "VEC2"
         },
         {
@@ -187,116 +99,33 @@
             "componentType" : 5123,
             "count" : 40284,
             "type" : "SCALAR"
-        },
-        {
-            "bufferView" : 4,
-            "componentType" : 5126,
-            "count" : 1,
-            "max" : [
-                0.033333336313565574
-            ],
-            "min" : [
-                0.033333336313565574
-            ],
-            "type" : "SCALAR"
-        },
-        {
-            "bufferView" : 5,
-            "componentType" : 5126,
-            "count" : 1,
-            "type" : "VEC3"
-        },
-        {
-            "bufferView" : 6,
-            "componentType" : 5126,
-            "count" : 1,
-            "type" : "VEC4"
-        },
-        {
-            "bufferView" : 7,
-            "componentType" : 5126,
-            "count" : 1,
-            "type" : "VEC3"
-        },
-        {
-            "bufferView" : 8,
-            "componentType" : 5126,
-            "count" : 1,
-            "type" : "VEC3"
-        },
-        {
-            "bufferView" : 9,
-            "componentType" : 5126,
-            "count" : 1,
-            "type" : "VEC4"
-        },
-        {
-            "bufferView" : 10,
-            "componentType" : 5126,
-            "count" : 1,
-            "type" : "VEC3"
         }
     ],
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 103224,
+            "byteLength" : 94704,
             "byteOffset" : 0
         },
         {
             "buffer" : 0,
-            "byteLength" : 103224,
-            "byteOffset" : 103224
+            "byteLength" : 94704,
+            "byteOffset" : 94704
         },
         {
             "buffer" : 0,
-            "byteLength" : 68816,
-            "byteOffset" : 206448
+            "byteLength" : 63136,
+            "byteOffset" : 189408
         },
         {
             "buffer" : 0,
             "byteLength" : 80568,
-            "byteOffset" : 275264
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 4,
-            "byteOffset" : 355832
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 12,
-            "byteOffset" : 355836
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 16,
-            "byteOffset" : 355848
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 12,
-            "byteOffset" : 355864
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 12,
-            "byteOffset" : 355876
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 16,
-            "byteOffset" : 355888
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 12,
-            "byteOffset" : 355904
+            "byteOffset" : 252544
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 355916,
+            "byteLength" : 333112,
             "uri" : "luvas_couro.bin"
         }
     ]
