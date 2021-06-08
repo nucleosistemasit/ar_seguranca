@@ -1,0 +1,184 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.6.16",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "sola",
+            "rotation" : [
+                -0.28277692198753357,
+                -0.6481027603149414,
+                0.28277695178985596,
+                0.6481028199195862
+            ],
+            "scale" : [
+                0.07332027703523636,
+                0.07332027703523636,
+                0.07332027703523636
+            ],
+            "translation" : [
+                0.01294973399490118,
+                0.1381247490644455,
+                0.032530270516872406
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "08 - Default.002",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.027450980618596077,
+                    0.027450980618596077,
+                    0.027450980618596077,
+                    1
+                ],
+                "roughnessFactor" : 0.858578622341156
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "07 - Default.001",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.06666667014360428,
+                    0.06666667014360428,
+                    0.06666667014360428,
+                    1
+                ],
+                "roughnessFactor" : 0.858578622341156
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Mesh.020",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1
+                    },
+                    "indices" : 2,
+                    "material" : 0
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 3,
+                        "NORMAL" : 4
+                    },
+                    "indices" : 5,
+                    "material" : 1
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 55344,
+            "max" : [
+                2.0740296840667725,
+                0.4780527651309967,
+                2.410493850708008
+            ],
+            "min" : [
+                -1.6489347219467163,
+                -0.6652404069900513,
+                -2.366574764251709
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 55344,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5123,
+            "count" : 55350,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 33603,
+            "max" : [
+                1.9882537126541138,
+                1.3068742752075195,
+                2.206636905670166
+            ],
+            "min" : [
+                -1.6666933298110962,
+                -0.5009779930114746,
+                -2.355194091796875
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 33603,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5123,
+            "count" : 33603,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 664128,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 664128,
+            "byteOffset" : 664128
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 110700,
+            "byteOffset" : 1328256
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 403236,
+            "byteOffset" : 1438956
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 403236,
+            "byteOffset" : 1842192
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 67206,
+            "byteOffset" : 2245428
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 2312636,
+            "uri" : "sapato.bin"
+        }
+    ]
+}

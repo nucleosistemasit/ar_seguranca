@@ -1,0 +1,127 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.6.16",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Glove_rubber_low",
+            "scale" : [
+                15.783112525939941,
+                15.783112525939941,
+                15.783112525939941
+            ],
+            "translation" : [
+                0,
+                1.5628069639205933,
+                0.15014660358428955
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Glove_rubber",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.800000011920929,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Plane.008",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 23304,
+            "max" : [
+                0.06485709547996521,
+                0.050142109394073486,
+                0.16187965869903564
+            ],
+            "min" : [
+                -0.07514458149671555,
+                -0.05425809323787689,
+                -0.19742998480796814
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 23304,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 23304,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 112320,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 279648,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 279648,
+            "byteOffset" : 279648
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 186432,
+            "byteOffset" : 559296
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 224640,
+            "byteOffset" : 745728
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 970368,
+            "uri" : "luvas_boracha.bin"
+        }
+    ]
+}
