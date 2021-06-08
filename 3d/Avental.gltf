@@ -1,0 +1,122 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.5.17",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "avental mesa",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "scale" : [
+                0.010000000707805157,
+                0.010000000707805157,
+                0.010000000707805157
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Leather_Lambskin_FRONT_197524",
+            "pbrMetallicRoughness" : {
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.4636862874031067
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "avental mesa",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 7052,
+            "max" : [
+                26.381254196166992,
+                5.158743381500244,
+                0.00920858420431614
+            ],
+            "min" : [
+                -22.65464973449707,
+                -83.28716278076172,
+                -5.801852703094482
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 7052,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 7052,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 36282,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 84624,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 84624,
+            "byteOffset" : 84624
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 56416,
+            "byteOffset" : 169248
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 72564,
+            "byteOffset" : 225664
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 298228,
+            "uri" : "Avental.bin"
+        }
+    ]
+}
