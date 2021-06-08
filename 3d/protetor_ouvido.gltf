@@ -1,0 +1,208 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.6.16",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "ear 1",
+            "rotation" : [
+                0.5,
+                0.5,
+                -0.5,
+                0.4999999701976776
+            ],
+            "scale" : [
+                0.02539999969303608,
+                0.02539999969303608,
+                0.02539999969303608
+            ],
+            "translation" : [
+                -0.03935700282454491,
+                0.013773271813988686,
+                -0.025365479290485382
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "01 - Default",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.8235294222831726,
+                    0.3686274588108063,
+                    0,
+                    1
+                ],
+                "roughnessFactor" : 0.5075422525405884
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "02 - Default",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.4588235318660736,
+                    0.07450980693101883,
+                    0,
+                    1
+                ],
+                "roughnessFactor" : 0.858578622341156
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Mesh.004",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 1
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 5391,
+            "max" : [
+                0.2517598569393158,
+                0.046630799770355225,
+                0.24793507158756256
+            ],
+            "min" : [
+                -1.5858663320541382,
+                -1.1922532320022583,
+                -0.24793507158756256
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 5391,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 5391,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 5508,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 11910,
+            "max" : [
+                0.8114550709724426,
+                4.291229724884033,
+                0.05193334072828293
+            ],
+            "min" : [
+                -2.80873703956604,
+                -0.044283509254455566,
+                -0.0519687794148922
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 11910,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 11910,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 11910,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 64692,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 64692,
+            "byteOffset" : 64692
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 43128,
+            "byteOffset" : 129384
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 11016,
+            "byteOffset" : 172512
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 142920,
+            "byteOffset" : 183528
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 142920,
+            "byteOffset" : 326448
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 95280,
+            "byteOffset" : 469368
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 23820,
+            "byteOffset" : 564648
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 588468,
+            "uri" : "protetor_ouvido.bin"
+        }
+    ]
+}
