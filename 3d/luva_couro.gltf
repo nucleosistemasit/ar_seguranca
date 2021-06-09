@@ -1,0 +1,133 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.6.16",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Leather_Glove_Class003",
+            "rotation" : [
+                0.3126440644264221,
+                -0.43419361114501953,
+                -0.17967410385608673,
+                0.8254979252815247
+            ],
+            "scale" : [
+                0.04934483766555786,
+                0.04934483394026756,
+                0.04934483394026756
+            ],
+            "translation" : [
+                0.614263117313385,
+                1.1525113582611084,
+                0.13528776168823242
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Luvas",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.1788606494665146,
+                    0.1788606494665146,
+                    0.1788606494665146,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5527864098548889
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Mesh.002",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 7892,
+            "max" : [
+                6.81117582321167,
+                11.577816009521484,
+                26.526315689086914
+            ],
+            "min" : [
+                -19.566699981689453,
+                -20.080015182495117,
+                -5.287494659423828
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 7892,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 7892,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 40284,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 94704,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 94704,
+            "byteOffset" : 94704
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 63136,
+            "byteOffset" : 189408
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 80568,
+            "byteOffset" : 252544
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 333112,
+            "uri" : "luva_couro.bin"
+        }
+    ]
+}
