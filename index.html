@@ -5,15 +5,14 @@
   
   <a-scene renderer="logarithmicDepthBuffer: true; colorManagement: true; sortObjects: true;" embedded arjs="sourceType: webcam; detectionMode: mono_and_matrix; matrixCodeType: 3x3;">
     
-    <a-assets>      
-      <a-asset-item id="safety_helmet" src="https://raw.githubusercontent.com/nucleosistemasit/ar_seguranca/main/3d/safety_helmet/scene.gltf"></a-asset-item>
+    <a-assets> 
       <a-asset-item id="Avental" src="https://raw.githubusercontent.com/nucleosistemasit/ar_seguranca/main/3d/Avental.gltf"></a-asset-item>
       <a-asset-item id="capacete" src="https://raw.githubusercontent.com/nucleosistemasit/ar_seguranca/main/3d/capacete.gltf"></a-asset-item>
       <a-asset-item id="luva_pano" src="https://raw.githubusercontent.com/nucleosistemasit/ar_seguranca/main/3d/luva_pano.gltf"></a-asset-item>
-      <a-asset-item id="luva_couro" src="https://raw.githubusercontent.com/nucleosistemasit/ar_seguranca/main/3d/luva couro.gltf"></a-asset-item>
-      <a-asset-item id="luva_de_borracha" src="https://raw.githubusercontent.com/nucleosistemasit/ar_seguranca/main/3d/luva de borracha.gltf"></a-asset-item>
+      <a-asset-item id="luva_couro" src="https://raw.githubusercontent.com/nucleosistemasit/ar_seguranca/main/3d/luva_couro.gltf"></a-asset-item>      
+      <a-asset-item id="luva_de_borracha" src="https://raw.githubusercontent.com/nucleosistemasit/ar_seguranca/main/3d/luva_borracha.gltf"></a-asset-item>
       <a-asset-item id="mascara" src="https://raw.githubusercontent.com/nucleosistemasit/ar_seguranca/main/3d/mascara.gltf"></a-asset-item>
-      <a-asset-item id="protetor_ouvido" src="https://raw.githubusercontent.com/nucleosistemasit/ar_seguranca/main/3d/protetor ouvido.gltf"></a-asset-item>
+      <a-asset-item id="protetor_ouvido" src="https://raw.githubusercontent.com/nucleosistemasit/ar_seguranca/main/3d/protetor_ouvido.gltf"></a-asset-item>
       <a-asset-item id="protetor_braco" src="https://raw.githubusercontent.com/nucleosistemasit/ar_seguranca/main/3d/protetor_braco.gltf"></a-asset-item>
       <a-asset-item id="sapato" src="https://raw.githubusercontent.com/nucleosistemasit/ar_seguranca/main/3d/sapato.gltf"></a-asset-item>
       <a-asset-item id="oculos" src="https://raw.githubusercontent.com/nucleosistemasit/ar_seguranca/main/3d/oculos.gltf"></a-asset-item>
@@ -22,51 +21,52 @@
     <!-- handle barcode marker -->    
     <a-marker type="barcode" value="1">
       <!--<a-box position="0 0.5 0" material="color: red;"></a-box> -->
-      <a-entity gltf-model="#safety_helmet" position="0 0 0.5" rotation="-90 0 0" scale="0.05 0.05 0.05"></a-entity>
+      <a-entity gltf-model="#capacete" position="0 0 0" rotation="0 0 0" scale="3 3 3"></a-entity>
     </a-marker>
     
     <a-marker type="barcode" value="2">
 <!--       <a-box position="0 0.5 0" material="color: green;"></a-box> -->
-      <a-entity gltf-model="#Avental" position="0 0 0.5" rotation="-90 0 0" scale="0.5 0.5 0.5"></a-entity>
+      <a-entity gltf-model="#Avental" position="0 0 0" rotation="0 0 0" scale="2 2 2"></a-entity>
     </a-marker>
     
     <a-marker type="barcode" value="3">
-      <a-entity gltf-model="#oculos" position="0 0 0.25" rotation="-90 0 0" scale="0.08 0.08 0.08"></a-entity>
+      <a-entity gltf-model="#oculos" position="0 0 1" rotation="0 0 0" scale="40 40 40"></a-entity>
 <!--       <a-box position="0 0.5 0" material="color: yellow;"></a-box> -->
     </a-marker>
     
     <a-marker type="barcode" value="4">
-      <a-entity gltf-model="#sapato" position="0 0 0.25" rotation="0 0 0" scale="1 1 1"></a-entity>
+      <a-entity gltf-model="#sapato" position="0 0 0" rotation="0 0 0" scale="3.5 3.5 3.5"></a-entity>
 <!--       <a-box position="0 0.5 0" material="color: pink;"></a-box> -->
     </a-marker>
     
     <a-marker type="barcode" value="5">
-      <a-entity gltf-model="#luva_pano" position="0 0 0.25" rotation="0 0 0" scale="1 1 1"></a-entity>
+      <a-entity gltf-model="#luva_pano" position="0 0 0" rotation="0 0 0" scale="6 6 6"></a-entity>
 <!--       <a-box position="0 0.5 0" material="color: blue;"></a-box> -->
     </a-marker>
     
     <a-marker type="barcode" value="6">
-      <a-entity gltf-model="#luva_couro" position="0 0 0.25" rotation="0 0 0" scale="1 1 1"></a-entity>
+      <a-entity gltf-model="#luva_couro" position="0 0 0" rotation="0 0 0" scale="0.5 0.5 0.5"></a-entity>
+<!--       <a-entity fbx-model="#luva_couro_fbx" position="0 0 0" rotation="0 0 0" scale="1 1 1"></a-entity> -->
 <!--       <a-box position="0 0.5 0" material="color: grey;"></a-box> -->
     </a-marker>
     
     <a-marker type="barcode" value="7">
-      <a-entity gltf-model="#luva_de_borracha" position="0 0 0.25" rotation="0 0 0" scale="1 1 1"></a-entity>
+      <a-entity gltf-model="#luva_de_borracha" position="0 0 0.2" rotation="-30 25 0" scale="3 3 3"></a-entity>
 <!--       <a-box position="0 0.5 0" material="color: purple;"></a-box> -->
     </a-marker>
     
     <a-marker type="barcode" value="8">
-      <a-entity gltf-model="#mascara" position="0 0 0.25" rotation="0 0 0" scale="1 1 1"></a-entity>
+      <a-entity gltf-model="#mascara" position="0 0 0" rotation="0 0 0" scale="2 2 2"></a-entity>
 <!--       <a-box position="0 0.5 0" material="color: cyan;"></a-box> -->
     </a-marker>
     
     <a-marker type="barcode" value="9">
-      <a-entity gltf-model="#protetor_ouvido" position="0 0 0.25" rotation="0 0 0" scale="1 1 1"></a-entity>
+      <a-entity gltf-model="#protetor_ouvido" position="0 0 0" rotation="0 0 0" scale="7 7 7"></a-entity>
 <!--       <a-box position="0 0.5 0" material="color: white;"></a-box> -->
     </a-marker>
     
     <a-marker type="barcode" value="10">
-      <a-entity gltf-model="#protetor_braco" position="0 0 0.25" rotation="0 0 0" scale="1 1 1"></a-entity>
+      <a-entity gltf-model="#protetor_braco" position="0 0 0" rotation="0 0 0" scale="2.5 2.5 2.5"></a-entity>
 <!--       <a-box position="0 0.5 0" material="color: orange;"></a-box> -->
     </a-marker>    
 
